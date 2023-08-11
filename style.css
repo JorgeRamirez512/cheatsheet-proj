@@ -1,34 +1,43 @@
 html {
     box-sizing: border-box;
-    background-color: rgb(255, 159, 90);
+    background-color: hsl(24, 100%, 64%);
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 18px;
 }
 
 h1 {
     text-align: center;
-    margin: 2rem 0;
-    color: rgb(145, 10, 192);
+    margin: 3rem 0;
+    color: hsl(285, 90%, 40%);
+    font-weight: 700;
 }
 
 table {
-    border-collapse: collapse;
-    width: 40%;
-    margin: 0 auto;
-    background-color: #FFE2E2;
-    color: rgb(145, 10, 192);
+  border-collapse: collapse;
+  width: 40%;
+  margin: 0 auto;
+  background-color: hsl(0, 100%, 94%);
+  color: hsl(285, 90%, 40%);
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 0.5rem;
-    text-align: left;
-  }
+td, .tblehead {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: left;
+}
 
-  th {
-    text-align: center;
-  }
+td {
+  font-weight: 500;
+}
+
+.tblehead {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 
   code {
-    background-color: rgb(255, 199, 199);
-    color: rgb(145, 10, 192);
+    background-color: hsl(0, 100%, 89%);
+    color: hsl(285, 90%, 40%);
   }
 
